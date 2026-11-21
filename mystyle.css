@@ -1,0 +1,243 @@
+#hoca {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 2px double;
+    height: 450px;
+    width: 100%;
+    border-top: 0;
+    background-color: azure;
+    overflow: hidden;
+}
+
+#hoca div {
+    position: absolute;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#shark {
+    animation-name: Shark;
+    animation-duration: 15s;
+}
+
+@keyframes Shark {
+    0%, 100% {
+        left: 50px;
+        top: 40px;
+        transform: scaleX(1);
+    }
+    48% {
+        left: 900px;
+        top: 60px;
+        transform: scaleX(1);
+    }
+    50% {
+        left: 900px;
+        top: 60px;
+        transform: scaleX(-1);
+    }
+    98% {
+        left: 50px;
+        top: 40px;
+        transform: scaleX(-1);
+    }
+}
+
+#turtle {
+    animation-name: Turtle;
+    animation-duration: 28s;
+}
+
+@keyframes Turtle {
+    0%, 100% {
+        left: 850px;
+        top: 150px;
+        transform: scaleX(-1);
+    }
+    48% {
+        left: 80px;
+        top: 180px;
+        transform: scaleX(-1);
+    }
+    50% {
+        left: 80px;
+        top: 180px;
+        transform: scaleX(1);
+    }
+    98% {
+        left: 850px;
+        top: 150px;
+        transform: scaleX(1);
+    }
+}
+
+#goldFishSchool {
+    animation-name: GoldFish;
+    animation-duration: 18s;
+}
+
+@keyframes GoldFish {
+    0%, 100% {
+        left: 150px;
+        top: 110px;
+        transform: scaleX(1);
+    }
+    48% {
+        left: 780px;
+        top: 90px;
+        transform: scaleX(1);
+    }
+    50% {
+        left: 780px;
+        top: 90px;
+        transform: scaleX(-1);
+    }
+    98% {
+        left: 150px;
+        top: 110px;
+        transform: scaleX(-1);
+    }
+}
+
+#faintSchool {
+    animation-name: FaintFish;
+    animation-duration: 21s;
+}
+
+@keyframes FaintFish {
+    0%, 100% {
+        left: 700px;
+        top: 220px;
+        transform: scaleX(-1);
+    }
+    48% {
+        left: 120px;
+        top: 200px;
+        transform: scaleX(-1);
+    }
+    50% {
+        left: 120px;
+        top: 200px;
+        transform: scaleX(1);
+    }
+    98% {
+        left: 700px;
+        top: 220px;
+        transform: scaleX(1);
+    }
+}
+
+#diver1 {
+    animation-name: Diver1;
+    animation-duration: 24s;
+}
+
+@keyframes Diver1 {
+    0%, 100% {
+        left: 60px;
+        top: 260px;
+        transform: scaleX(1);
+    }
+    25% {
+        left: 300px;
+        top: 330px;
+        transform: scaleX(1);
+    }
+    48% {
+        left: 580px;
+        top: 250px;
+        transform: scaleX(1);
+    }
+    50% {
+        left: 580px;
+        top: 250px;
+        transform: scaleX(-1);
+    }
+    75% {
+        left: 300px;
+        top: 330px;
+        transform: scaleX(-1);
+    }
+    98% {
+        left: 60px;
+        top: 260px;
+        transform: scaleX(-1);
+    }
+}
+
+#diver2 {
+    animation-name: Diver2;
+    animation-duration: 26s;
+}
+
+@keyframes Diver2 {
+    0%, 100% {
+        left: 350px;
+        top: 290px;
+        transform: scaleX(1);
+    }
+    25% {
+        left: 620px;
+        top: 210px;
+        transform: scaleX(1);
+    }
+    48% {
+        left: 880px;
+        top: 300px;
+        transform: scaleX(1);
+    }
+    50% {
+        left: 880px;
+        top: 300px;
+        transform: scaleX(-1);
+    }
+    75% {
+        left: 620px;
+        top: 210px;
+        transform: scaleX(-1);
+    }
+    98% {
+        left: 350px;
+        top: 290px;
+        transform: scaleX(-1);
+    }
+}
+
+#diver3 {
+    animation-name: Diver3;
+    animation-duration: 22s;
+}
+
+@keyframes Diver3 {
+    0%, 100% {
+        left: 900px;
+        top: 130px;
+        transform: scaleX(-1);
+    }
+    25% {
+        left: 680px;
+        top: 230px;
+        transform: scaleX(-1);
+    }
+    48% {
+        left: 480px;
+        top: 120px;
+        transform: scaleX(-1);
+    }
+    50% {
+        left: 480px;
+        top: 120px;
+        transform: scaleX(1);
+    }
+    75% {
+        left: 680px;
+        top: 230px;
+        transform: scaleX(1);
+    }
+    98% {
+        left: 900px;
+        top: 130px;
+        transform: scaleX(1);
+    }
+}
